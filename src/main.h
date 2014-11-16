@@ -36,10 +36,10 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 30000;
 static const int64 MIN_TX_FEE = .00001 * COIN;
 static const int64 MIN_RELAY_TX_FEE = .00001 * COIN;
-static const int64 MAX_MONEY = 60000000 * COIN;
-static const int64 MAX_MONEY2 = 60000000 * COIN;			// 60 mil
-static const int64 MAX_MINT_PROOF_OF_STAKE = 2.00 * COIN;	// 200% annual interest
-static const int64 MAX_MINT_PROOF_OF_STAKEV2 = 7.50 * COIN;	// 750% annual interest
+static const int64 MAX_MONEY = 2000000 * COIN;
+static const int64 MAX_MONEY2 = 2000000 * COIN;			// 2 mil
+static const int64 MAX_MINT_PROOF_OF_STAKE = 0.006 * COIN;	// 6% annual interest
+static const int64 MAX_MINT_PROOF_OF_STAKEV2 = 0.06 * COIN;	// 6% annual interest
 static const unsigned int FORK_TIME = 1404678625; // Sun, 06 Jul 2014 20:30:25 GMT
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 

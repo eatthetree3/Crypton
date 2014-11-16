@@ -801,7 +801,7 @@ REFERENCED_BY_RELATION = NO
 REFERENCES_RELATION    = NO
 
 # If the REFERENCES_LINK_SOURCE tag is set to YES (the default) 
-# and SOURCE_BROWSER tag is set to YES, then the hyperlinks from 
+# and SOURCE_BROWSER tag is set to YES, then the CRYerlinks from 
 # functions in REFERENCES_RELATION and REFERENCED_BY_RELATION lists will 
 # link to the source code.  Otherwise they will link to the documentation.
 
@@ -1253,12 +1253,12 @@ LATEX_HEADER           =
 
 LATEX_FOOTER           = 
 
-# If the PDF_HYPERLINKS tag is set to YES, the LaTeX that is generated 
+# If the PDF_CRYERLINKS tag is set to YES, the LaTeX that is generated 
 # is prepared for conversion to pdf (using ps2pdf). The pdf file will 
 # contain links (just like the HTML output) instead of page references 
 # This makes the output suitable for online browsing using a pdf viewer.
 
-PDF_HYPERLINKS         = YES
+PDF_CRYERLINKS         = YES
 
 # If the USE_PDFLATEX tag is set to YES, pdflatex will be used instead of 
 # plain latex in the generated Makefile. Set this option to YES to get a 
@@ -1308,14 +1308,14 @@ RTF_OUTPUT             = rtf
 
 COMPACT_RTF            = NO
 
-# If the RTF_HYPERLINKS tag is set to YES, the RTF that is generated 
-# will contain hyperlink fields. The RTF file will 
+# If the RTF_CRYERLINKS tag is set to YES, the RTF that is generated 
+# will contain CRYerlink fields. The RTF file will 
 # contain links (just like the HTML output) instead of page references. 
 # This makes the output suitable for online browsing using WORD or other 
 # programs which support those fields. 
 # Note: wordpad (write) and others do not support links.
 
-RTF_HYPERLINKS         = NO
+RTF_CRYERLINKS         = NO
 
 # Load stylesheet definitions from file. Syntax is similar to doxygen's 
 # config file, i.e. a series of assignments. You only have to provide 

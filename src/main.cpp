@@ -70,7 +70,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "HyperStake Signed Message:\n";
+const string strMessageMagic = "Crypton Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -1525,8 +1525,8 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes in their
     // initial block download.
-    bool fEnforceBIP30 = true; // Always active in HyperStake
-    bool fStrictPayToScriptHash = true; // Always active in HyperStake
+    bool fEnforceBIP30 = true; // Always active in Crypton
+    bool fStrictPayToScriptHash = true; // Always active in Crypton
 
     //// issue here: it doesn't know the version
     unsigned int nTxPos;
@@ -2481,7 +2481,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "HyperStake", CClientUIInterface::OK | CClientUIInterface::ICON_ETRKLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "Crypton", CClientUIInterface::OK | CClientUIInterface::ICON_ETRKLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2574,7 +2574,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-        const char* pszTimestamp = "29/5/14 - Replica Ghostbusters car stops the traffic - BBC UK";
+        const char* pszTimestamp = "16/11/14 - G20 summit: Leaders pledge to grow their economies by 2.1 per-cent ";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2587,7 +2587,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1401331380;
+        block.nTime    = 1416157014;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = 1779291;
         if (false ) {
@@ -3225,7 +3225,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
                     if (inv.hash == pfrom->hashContinue)
                     {
 			// Default behavior of PoS coins is to send last PoW block here which client
-			// receives as an orphan. With HYP we want hyper download speed so further
+			// receives as an orphan. With CRY we want CRYer download speed so further
 			// block (index HIGH_BLOCK_INDEX) is sent. If server does not have it yet,
 			// then proceeds with default behavior.
                         vector<CInv> vInv;

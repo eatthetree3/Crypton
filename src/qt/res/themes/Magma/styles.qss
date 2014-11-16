@@ -1,8 +1,8 @@
 /**
  * Magma Qt Theme - v1.0
  * Created: 24/10/2014
- * Author: ShrykeZ (Based on HyperBlue by Zeewolf) - ##hyperstake (freenode)
- * HyperStake - faster than light!
+ * Author: ShrykeZ (Based on CRYerBlue by Zeewolf) - ##Crypton (freenode)
+ * Crypton - faster than light!
  */
 
 /**
@@ -41,7 +41,7 @@ QDialog, QMainWindow {
 }
 
 #coinLogo {
-	qproperty-pixmap: url($theme-dir/hypstk-watermark.png);
+	qproperty-pixmap: url($theme-dir/CRYstk-watermark.png);
 	qproperty-alignment: 'AlignBottom | AlignLeft';
 }
 

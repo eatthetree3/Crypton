@@ -1,7 +1,7 @@
 
-HyperStake
+Crypton
 
-Copyright (c) 2014 HyperStake Developers
+Copyright (c) 2014 Crypton Developers
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2012 Bitcoin Developers
 Distributed under the MIT/X11 software license, see the accompanying
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-HyperStake is a free open source project derived from NovaCoin, with
+Crypton is a free open source project derived from NovaCoin, with
 the goal of providing a long-term energy-efficient X11-based crypto-currency.
 Built on the foundation of Bitcoin and NovaCoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -22,9 +22,9 @@ Setup
 -----
 After completing windows setup then run windows command line (cmd)
   cd daemon
-  hyperstaked
+  Cryptond
 
-Grant access to hyperstaked.exe in anti-virus and firewall
+Grant access to Cryptond.exe in anti-virus and firewall
 applications if necessary.
 
 The software automatically finds other nodes to connect to.  You can
@@ -32,26 +32,26 @@ enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 
 
 18775 (TCP) to your computer so you can receive
-incoming connections.  HyperStake works without incoming connections,
-but allowing incoming connections helps the HyperStake network.
+incoming connections.  Crypton works without incoming connections,
+but allowing incoming connections helps the Crypton network.
 
 Upgrade
 -------
 All you existing coins/transactions should be intact with the upgrade.
 To upgrade first backup wallet
-hyperstaked backupwallet <destination_backup_file>
-Then shutdown hyperstaked by
-hyperstaked stop
-Start up the new hyperstaked.
+Cryptond backupwallet <destination_backup_file>
+Then shutdown Cryptond by
+Cryptond stop
+Start up the new Cryptond.
 
 
-See the HyperStake site:
+See the Crypton site:
 
-  http://hyperstake.com
+  http://Crypton.com
 
 or Wikia
 
-  http://hyperstake.wikia.com/wiki/HyperStake_Wiki
+  http://Crypton.wikia.com/wiki/Crypton_Wiki
 
 for help and more information.
 

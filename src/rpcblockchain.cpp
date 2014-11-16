@@ -261,7 +261,7 @@ Value getcheckpoint(const Array& params, bool fHelp)
     return result;
 }
 
-// presstab HyperStake
+// presstab Crypton
 Value exportdifficulty(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)

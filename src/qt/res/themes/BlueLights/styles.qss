@@ -1,9 +1,9 @@
 /**
  * BlueLights Qt theme
  * Last changed: 2014-10-31
- * Author: moneromooo - based on HyperBlue by ZeeWolf - ##hyperstake (freenode)
+ * Author: moneromooo - based on CRYerBlue by ZeeWolf - ##Crypton (freenode)
  * Background adapted from https://hdwallpaperia.com/blue-lights-abstract.html
- * HyperStake - faster than light!
+ * Crypton - faster than light!
  */
 
 /**
@@ -58,7 +58,7 @@ QMainWindow > QFrame > QDialog {
 }
 
 #coinLogo {
-	qproperty-pixmap: url($theme-dir/hypstk-watermark.png);
+	qproperty-pixmap: url($theme-dir/CRYstk-watermark.png);
 	qproperty-alignment: 'AlignBottom | AlignRight';
 }
 

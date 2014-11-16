@@ -1,8 +1,8 @@
 /**
- * HyperBlue Qt theme - v1.1
+ * CRYerBlue Qt theme - v1.1
  * Last changed: 2014-10-06
- * Author: ZeeWolf - ##hyperstake (freenode)
- * HyperStake - faster than light!
+ * Author: ZeeWolf - ##Crypton (freenode)
+ * Crypton - faster than light!
  */
 
 /**
@@ -53,7 +53,7 @@ QDialog, QMainWindow {
 }
 
 #coinLogo {
-	qproperty-pixmap: url($theme-dir/hypstk-watermark.png);
+	qproperty-pixmap: url($theme-dir/CRYstk-watermark.png);
 	qproperty-alignment: 'AlignBottom | AlignLeft';
 }
 
